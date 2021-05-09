@@ -233,6 +233,17 @@ h5 {
 .box-logo {
     display: block;
     padding: 20px;
+    opacity: 1;
+    -webkit-transition: opacity .3s 0s;
+    transition: opacity .3s 0s;
+}
+
+.box-logo.fade-out {
+    opacity: 0;
+}
+
+.box-logo img {
+    height: 40px;
 }
 
 .box-primary-nav-trigger {
@@ -489,16 +500,17 @@ h5 {
     border-radius: 50%;
     display: flex;
     height: 92px;
+    margin: 0 6px;
     padding: 10px;
     position: absolute;
-    right: 76px;
+    left: 0;
     top: 2px;
-    transition: right 0.25s;
+    transition: left 0.25s;
     width: 92px;
 }
 
 .box-headline.on .circle-outer {
-    right: 6px;
+    left: 70px;
 }
 
 .circle-inner {
@@ -509,9 +521,9 @@ h5 {
 }
 
 .toggle-on, .toggle-off {
-    font-size: 26px;
+    font-size: 44px;
     position: absolute;
-    top: -8px;
+    top: -32px;
     transition: opacity 0.25s ease-in;
     width: 186px;
 }
@@ -799,10 +811,6 @@ h5 {
     color: white;
     border-radius: 25px;
     text-decoration: none;
-}
-
-.portfolio_filter {
-    padding-left: 0;
 }
 
 .portfolio_item {
@@ -1179,13 +1187,23 @@ textarea:focus {
 ==================================================*/
 
 .cat-ul {
-    padding-left: 0;
     list-style: none
 }
 
-.cat-ul li i {
-    margin-right: 10px;
+.cat-ul li {
+    align-items: center;
+    display: flex;
+}
+
+.cat-ul li:before {
     color: #DA1F42;
+    content: "\2022"; 
+    display: inline-block; 
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 14px;;
+    margin-left: -1em;
+    width: 1em; 
 }
 
 .academic-drawing-top-bar {

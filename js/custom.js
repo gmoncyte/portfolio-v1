@@ -25,7 +25,6 @@ $(window).load(function () {
     }, 2500);
 
     // preloader
-    $('#status').fadeOut(); // will first fade out the loading animation
     $('#preloader').delay(550).fadeOut('slow'); // will fade out the white DIV that covers the website.
     $('body').delay(550).css({
         'overflow': 'visible'
@@ -38,32 +37,24 @@ $(window).load(function () {
         filter: '*',
     });
 
-    $('.portfolio_filter a').click(function () {
-        $('.portfolio_filter .active').removeClass('active');
-        $(this).addClass('active');
-
-        var selector = $(this).attr('data-filter');
-        $container.isotope({
-            filter: selector,
-            animationOptions: {
-                duration: 500,
-                animationEngine: "jquery"
-            }
-        });
-        return false;
-    });
-
     // back to top
     var offset = 300,
         offset_opacity = 1200,
         scroll_top_duration = 700,
-        $back_to_top = $('.cd-top');
+        $back_to_top = $('.cd-top'),
+        $logo = $('.box-logo.index')
 
     //hide or show the "back to top" link
     $(window).scroll(function () {
         ($(this).scrollTop() > offset) ? $back_to_top.addClass('cd-is-visible') : $back_to_top.removeClass('cd-is-visible cd-fade-out');
         if ($(this).scrollTop() > offset_opacity) {
             $back_to_top.addClass('cd-fade-out');
+        }
+
+        if($(this).scrollTop() > visualViewport.height * 2 / 3) {
+            $logo.removeClass('fade-out');
+        } else {
+            $logo.addClass('fade-out');
         }
     });
 
