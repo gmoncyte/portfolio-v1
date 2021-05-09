@@ -995,7 +995,7 @@ footer img {
     background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/01.jpg);
     background-size: cover;
     background-attachment: fixed;
-    background-position: center center;
+    background-position: top center;
     text-align: center;
 }
 
@@ -1223,7 +1223,7 @@ textarea:focus {
     background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/top\ bar-academic\ drawing.jpg);
     background-size: cover;
     background-attachment: fixed;
-    background-position: center center;
+    background-position: top center;
     text-align: center;
 }
 
@@ -1234,7 +1234,7 @@ textarea:focus {
     background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/top\ bar-about\ me.jpg);
     background-size: cover;
     background-attachment: fixed;
-    background-position: center center;
+    background-position: top center;
     text-align: center;
 }
 
@@ -1245,7 +1245,7 @@ textarea:focus {
     background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/Top\ bar-flat\ objects.jpg);
     background-size: cover;
     background-attachment: fixed;
-    background-position: center center;
+    background-position: top center;
     text-align: center;
 }
 
@@ -1256,7 +1256,7 @@ textarea:focus {
     background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/top\ bar-graphic\ pen.jpg);
     background-size: cover;
     background-attachment: fixed;
-    background-position: center center;
+    background-position: top center;
     text-align: center;
 }
 
@@ -1267,7 +1267,7 @@ textarea:focus {
     background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/Top\ bar-flat\ objects.jpg);
     background-size: cover;
     background-attachment: fixed;
-    background-position: center center;
+    background-position: top center;
     text-align: center;
 }
 
@@ -1278,7 +1278,7 @@ textarea:focus {
     background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/top\ bar-graphic\ pen.jpg);
     background-size: cover;
     background-attachment: fixed;
-    background-position: center center;
+    background-position: top center;
     text-align: center;
 }
 
@@ -1289,7 +1289,7 @@ textarea:focus {
     background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/Top\ bar-pencil.jpg);
     background-size: cover;
     background-attachment: fixed;
-    background-position: center center;
+    background-position: top center;
     text-align: center;
 }
 
@@ -1300,7 +1300,7 @@ textarea:focus {
     background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/Top\ bar-pencil.jpg);
     background-size: cover;
     background-attachment: fixed;
-    background-position: center center;
+    background-position: top center;
     text-align: center;
 }
 
@@ -1311,7 +1311,7 @@ textarea:focus {
     background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/Top\ bar-pencil.jpg);
     background-size: cover;
     background-attachment: fixed;
-    background-position: center center;
+    background-position: top center;
     text-align: center;
 }
 
@@ -1322,7 +1322,7 @@ textarea:focus {
     background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/Top\ bar-pencil.jpg);
     background-size: cover;
     background-attachment: fixed;
-    background-position: center center;
+    background-position: top center;
     text-align: center;
 }
 
@@ -1333,7 +1333,7 @@ textarea:focus {
     background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/top\ bar-graphic\ pen.jpg);
     background-size: cover;
     background-attachment: fixed;
-    background-position: center center;
+    background-position: top center;
     text-align: center;
 }
 
