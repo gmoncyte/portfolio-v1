@@ -1384,6 +1384,7 @@ body.theme--dark .box-menu-icon::after {
 
 .about-me {
     padding-left: 30px;
+    font-size: 18px;
 }
 
 .applications > div {
@@ -1456,8 +1457,17 @@ body.theme--dark .box-menu-icon::after {
     width: 150px;
 }
 
-.hello.initial hr {
+.about-me.initial .hello hr {
     transform: translateX(-100%);
+}
+
+.about-me.initial p span {
+    opacity: 0;
+}
+
+.about-me p span {
+    opacity: 1;
+    transition: opacity 0.25s;
 }
 
 .interests {
@@ -1546,15 +1556,15 @@ body.theme--dark .box-menu-icon::after {
 }   
 
 .timeline-item:nth-child(2) > div {
-    transition-delay: 0.75s;
+    transition-delay: 2.25s;
 }  
 
 .timeline-item:nth-child(3) > div {
-    transition-delay: 1s;
+    transition-delay: 2.5s;
 }
 
 .timeline-item:nth-child(4) > div {
-    transition-delay: 1.25s;
+    transition-delay: 2.75s;
 }
 
 

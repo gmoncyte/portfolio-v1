@@ -1,6 +1,10 @@
 $(window).load(function () {
     var timeout;
 
+    $('.about-me p span').css('transition-delay', function(index) {
+        return (1 + index * 0.1) + 's';
+    });
+
     $('.logo-container').click(function (e) {
         if ($('.box-headline').hasClass('on')) {
             $('.box-headline').removeClass('on')
@@ -26,7 +30,7 @@ $(window).load(function () {
 
     setTimeout(function() {
         $('.timeline').removeClass('initial');
-        $('.hello').removeClass('initial');
+        $('.about-me').removeClass('initial');
     }, 1500);
 
     // preloader
