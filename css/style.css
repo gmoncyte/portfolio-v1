@@ -31,6 +31,8 @@
 
 @import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap);
 
+@import url(https://fonts.googleapis.com/css2?family=Cantarell:wght@400;700&display=swap);
+
 /* General
 ==================================================*/
 
@@ -1325,6 +1327,182 @@ textarea:focus {
     background-attachment: fixed;
     background-position: center center;
     text-align: center;
+}
+
+/* About 
+==================================================*/
+body.theme--dark {
+    background-color: #282827;
+}
+
+body.theme--dark .box-header.is-fixed {
+    background-color: #282827;
+}
+
+body.theme--dark .box-menu-text {
+    color: white;
+}
+
+body.theme--dark .box-menu-icon::before,
+body.theme--dark .box-menu-icon::after {
+    color: white;
+}
+
+.about-container {
+    color: white;
+    font-family: 'Cantarell', sans-serif;
+}
+
+.about-container .red {
+    color: #DA1F41;
+}
+
+.about-container h1,
+.about-container h2,
+.about-container h3 {
+    color: white;
+    font-weight: bold;
+}
+
+.about-container h1,
+.about-container h2 {
+    margin-bottom: 40px;
+}
+
+.applications > div {
+    align-items: center;
+    border: 3px solid #DA1F41;
+    border-radius: 50%;
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    margin: 30px 0;
+    width: 80px;
+}
+
+.applications h2 {
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+}
+
+.applications div:last-child h2 {
+    font-size: 18px;
+}
+
+.contacts {
+    display: flex;
+}
+
+.contacts > div {
+    margin: 10px 20px 10px 0;
+}
+
+.contacts a {
+    align-items: center;
+    color: white;
+    display: flex;
+    font-weight: bold;
+}
+
+.contacts a:hover {
+    color: #999;
+    text-decoration: none;
+}
+
+.contacts .icon {
+    align-items: center;
+    background-color: #DA1F41;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    height: 30px;
+    justify-content: center;
+    margin-right: 15px;
+    width: 30px;
+}
+
+.experience {
+    font-weight: bold;
+}
+
+.hello {
+    border-top: 3px solid #DA1F41;
+    display: inline-block;
+    width: 150px;
+}
+
+.interests {
+    display: flex;
+}
+
+.interests > div {
+    align-items: center;
+    display: flex;
+    margin-right: 10px;
+}
+
+.interests > div span:first-child {
+    border-radius: 50%;
+    background-color: #DA1F41;
+    display: inline-block;
+    margin-right: 10px;
+    height: 8px;
+    width: 8px;
+}
+
+.languages .score span {
+    border: 3px solid #DA1F41;
+    border-radius: 50%;
+    display: inline-block;
+    height: 15px;
+    margin-right: 15px;
+    width: 15px;
+} 
+
+.languages .score span.full {
+    background-color: #DA1F41;
+} 
+
+.timeline {
+    display: flex;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 20px;
+    padding: 30px 0;
+    position: relative;
+}
+
+.timeline > hr {
+    border-top: 3px solid #DA1F41;
+    display: block;
+    margin-top: 49px;
+    position: absolute;
+    width: 100%;
+}
+
+.timeline-item {
+    align-items: center;
+    background-color: #282827;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 10px;
+}
+
+.timeline-item > div {
+    background-color: #282827; 
+    padding: 0 10px;
+    position: relative;
+    z-index: 1;
+}   
+
+.timeline-item > div > div {
+    background-color: #DA1F41; 
+    border-radius: 50%;
+    height: 20px;
+    margin: 10px 0;
+    width: 20px;
 }
 
 /* Responsive media queries
