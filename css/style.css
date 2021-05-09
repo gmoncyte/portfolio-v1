@@ -1343,9 +1343,10 @@ body.theme--dark .box-menu-text {
     color: white;
 }
 
+body.theme--dark .box-menu-icon,
 body.theme--dark .box-menu-icon::before,
 body.theme--dark .box-menu-icon::after {
-    color: white;
+    background-color: white;
 }
 
 .about-container {
