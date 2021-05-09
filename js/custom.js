@@ -24,6 +24,11 @@ $(window).load(function () {
         }
     }, 2500);
 
+    setTimeout(function() {
+        $('.timeline').removeClass('initial');
+        $('.hello').removeClass('initial');
+    }, 1500);
+
     // preloader
     $('#preloader').delay(550).fadeOut('slow'); // will fade out the white DIV that covers the website.
     $('body').delay(550).css({
