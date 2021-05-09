@@ -1335,7 +1335,7 @@ body.theme--dark {
     background-color: #282827;
 }
 
-body.theme--dark .box-header.is-fixed {
+body.theme--dark .box-header {
     background-color: #282827;
 }
 
