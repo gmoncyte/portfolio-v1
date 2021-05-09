@@ -1382,6 +1382,10 @@ body.theme--dark .box-menu-icon::after {
     margin-bottom: 20px;
 }
 
+.about-me {
+    padding-left: 30px;
+}
+
 .applications > div {
     align-items: center;
     border: 3px solid #DA1F41;
